@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e0db75305f730a44eb615237d1122d16, type: 3}
+  m_Name: Terrain Spawn Data
+  m_EditorClassIdentifier: 
+  m_TreeList: []
+  m_RockList:
+  - Object: {fileID: 100000, guid: 79bce83937e43d042843a359e671ca99, type: 2}
+    SpawnProbability: 90
+    PositionOffset: {x: 0, y: 0, z: 0}
+    RandomRotation: {x: 0, y: 0, z: 0}
+  - Object: {fileID: 100000, guid: e349b6a927183154d9bf449b09b8e413, type: 2}
+    SpawnProbability: 10
+    PositionOffset: {x: 0, y: 0, z: 0}
+    RandomRotation: {x: 0, y: 0, z: 0}

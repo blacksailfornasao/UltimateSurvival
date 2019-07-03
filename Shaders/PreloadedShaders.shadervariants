@@ -1,0 +1,431 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!200 &20000000
+ShaderVariantCollection:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: PreloadedShaders
+  m_Shaders:
+    data:
+      first: {fileID: 66, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 45, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _NORMALMAP _SPECGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _NORMALMAP _SPECGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION _NORMALMAP _SPECGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _GLOSSYREFLECTIONS_OFF _NORMALMAP _SPECGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _GLOSSYREFLECTIONS_OFF _NORMALMAP
+            _SPECGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION _GLOSSYREFLECTIONS_OFF
+            _NORMALMAP _SPECGLOSSMAP
+          passType: 4
+        - keywords: DIRECTIONAL
+          passType: 5
+        - keywords: FOG_EXP2 POINT
+          passType: 5
+        - keywords: DIRECTIONAL _NORMALMAP
+          passType: 5
+        - keywords: DIRECTIONAL _NORMALMAP _SPECGLOSSMAP
+          passType: 5
+        - keywords: FOG_EXP2 POINT _NORMALMAP _SPECGLOSSMAP
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: SHADOWS_DEPTH _SPECGLOSSMAP
+          passType: 8
+    data:
+      first: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _GLOSSYREFLECTIONS_OFF
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _GLOSSYREFLECTIONS_OFF
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _GLOSSYREFLECTIONS_OFF _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _GLOSSYREFLECTIONS_OFF _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL _ALPHAPREMULTIPLY_ON _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _ALPHAPREMULTIPLY_ON _EMISSION
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _METALLICGLOSSMAP _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP
+            _NORMALMAP
+          passType: 4
+        - keywords: DIRECTIONAL _EMISSION _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _EMISSION _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _EMISSION _METALLICGLOSSMAP
+            _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+          passType: 4
+        - keywords: DIRECTIONAL
+          passType: 5
+        - keywords: FOG_EXP2 POINT
+          passType: 5
+        - keywords: DIRECTIONAL _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP2 POINT _NORMALMAP
+          passType: 5
+        - keywords: DIRECTIONAL _ALPHAPREMULTIPLY_ON
+          passType: 5
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP
+          passType: 5
+        - keywords: FOG_EXP2 POINT _METALLICGLOSSMAP _NORMALMAP
+          passType: 5
+        - keywords: DIRECTIONAL _METALLICGLOSSMAP _NORMALMAP _SMOOTHNESS_TEXTURE_ALBEDO_CHANNEL_A
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: SHADOWS_DEPTH _ALPHAPREMULTIPLY_ON
+          passType: 8
+        - keywords: SHADOWS_DEPTH _METALLICGLOSSMAP
+          passType: 8
+    data:
+      first: {fileID: 64, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: SHADOWS_SPLIT_SPHERES
+          passType: 0
+    data:
+      first: {fileID: 7, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL
+          passType: 5
+        - keywords: FOG_EXP2 POINT
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+        - keywords: 
+          passType: 11
+    data:
+      first: {fileID: 106, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: _SUNDISK_SIMPLE
+          passType: 0
+        - keywords: _SUNDISK_HIGH_QUALITY
+          passType: 0
+    data:
+      first: {fileID: 200, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+        - keywords: FOG_EXP2
+          passType: 0
+    data:
+      first: {fileID: 203, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+        - keywords: FOG_EXP2
+          passType: 0
+    data:
+      first: {fileID: 206, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+        - keywords: FOG_EXP2
+          passType: 0
+    data:
+      first: {fileID: 207, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 208, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 1
+    data:
+      first: {fileID: 10500, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10501, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: FOG_EXP2
+          passType: 1
+        - keywords: FOG_EXP2 POINT
+          passType: 1
+        - keywords: DIRECTIONAL FOG_EXP2
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+          passType: 4
+        - keywords: FOG_EXP2 POINT
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10502, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10505, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: FOG_EXP2
+          passType: 1
+        - keywords: FOG_EXP2 POINT
+          passType: 1
+        - keywords: DIRECTIONAL FOG_EXP2 _TERRAIN_NORMAL_MAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _TERRAIN_NORMAL_MAP
+          passType: 4
+        - keywords: FOG_EXP2 POINT _TERRAIN_NORMAL_MAP
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10507, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: FOG_EXP2
+          passType: 0
+    data:
+      first: {fileID: 9000, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 9001, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 9002, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 9003, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 10600, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: DIRECTIONAL
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10601, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10602, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 10603, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 10604, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL
+          passType: 5
+        - keywords: FOG_EXP2 POINT
+          passType: 5
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10605, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN VERTEXLIGHT_ON
+          passType: 4
+        - keywords: SHADOWS_DEPTH
+          passType: 8
+    data:
+      first: {fileID: 10623, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 _TERRAIN_NORMAL_MAP
+          passType: 4
+        - keywords: DIRECTIONAL FOG_EXP2 SHADOWS_SCREEN _TERRAIN_NORMAL_MAP
+          passType: 4
+        - keywords: FOG_EXP2 POINT _TERRAIN_NORMAL_MAP
+          passType: 5
+    data:
+      first: {fileID: 10625, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 11
+    data:
+      first: {fileID: 10720, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+        - keywords: FOG_EXP2
+          passType: 0
+    data:
+      first: {fileID: 10723, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+        - keywords: FOG_EXP2
+          passType: 0
+    data:
+      first: {fileID: 10770, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+        - keywords: UNITY_UI_ALPHACLIP
+          passType: 0
+    data:
+      first: {fileID: 15104, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 15105, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 15106, guid: 0000000000000000f000000000000000, type: 0}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 8c733bedb63b7b0429afee0ffb30471d, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 5b8fe5cc652cf4a40a20d7d78e50bfb7, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 07c94df3ad1daeb4d82e67c87a4910f7, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 19c89e08927ec58428d4f6b8a7090bf7, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 96653692171e6df42b92fffd1d086e1f, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 55d94b7a0f0d1994c8df369ed89f71fe, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0
+    data:
+      first: {fileID: 4800000, guid: 57ea13518e3c9904caf0519f44afbda8, type: 3}
+      second:
+        variants:
+        - keywords: 
+          passType: 0

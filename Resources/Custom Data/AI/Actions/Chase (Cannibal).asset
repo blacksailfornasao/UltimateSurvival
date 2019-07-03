@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3379f974a3251ac4794f529ede55550f, type: 3}
+  m_Name: Chase (Cannibal)
+  m_EditorClassIdentifier: 
+  m_InitialScreamAudio:
+    m_Sounds:
+    - {fileID: 8300000, guid: 57e83485ea31f7e4c94eac5a08da8302, type: 3}
+    - {fileID: 8300000, guid: 833640be22bd78a48890ee30c4f7f0f0, type: 3}
+    - {fileID: 8300000, guid: 8a8209b3ad6d488428fd3d1f9107fb2f, type: 3}
+    - {fileID: 8300000, guid: 971a39f00e08d5c43822450e3616fc26, type: 3}
+    m_VolumeRange: {x: 0.5, y: 0.75}
+    m_PitchRange: {x: 0.9, y: 1.1}
+  m_ScreamingAudio:
+    m_Sounds:
+    - {fileID: 8300000, guid: 833640be22bd78a48890ee30c4f7f0f0, type: 3}
+    - {fileID: 8300000, guid: 8a8209b3ad6d488428fd3d1f9107fb2f, type: 3}
+    - {fileID: 8300000, guid: 971a39f00e08d5c43822450e3616fc26, type: 3}
+    m_VolumeRange: {x: 0.5, y: 0.67}
+    m_PitchRange: {x: 0.9, y: 1.1}
+  m_ScreamInterval: {x: 1.8, y: 2.5}

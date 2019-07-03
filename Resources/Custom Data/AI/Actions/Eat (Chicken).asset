@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 697bedc5c4345a64f89482feecbf981e, type: 3}
+  m_Name: Eat (Chicken)
+  m_EditorClassIdentifier: 
+  m_EatTime: 8
+  m_EatAudio:
+    m_Sounds:
+    - {fileID: 8300000, guid: 7c524f89b4f15754ba3379f34a1fbe69, type: 3}
+    - {fileID: 8300000, guid: acc3915acaf317f49873070063e9c65f, type: 3}
+    - {fileID: 8300000, guid: 70651f0836ba9af408f36b3ab6d0c6f7, type: 3}
+    m_VolumeRange: {x: 0.5, y: 0.75}
+    m_PitchRange: {x: 0.9, y: 1.1}
+  m_EatSoundInterval: 1

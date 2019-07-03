@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 880ec17dde5c33c45844c7a88d1f07d9, type: 3}
+  m_Name: Random Patrol (Boar)
+  m_EditorClassIdentifier: 
+  m_IsUrgent: 0
+  m_PointSequence: 1
+  m_UsePredefinedPoints: 0
+  m_PointTag: WP
+  m_PointAmount: 5
+  m_PointMaxRadius: 10
+  m_WaitTime: {x: 8, y: 15}
+  m_Audio:
+    m_Sounds:
+    - {fileID: 8300000, guid: 1e0875b478f10564aa40213aed3b971c, type: 3}
+    - {fileID: 8300000, guid: e4b12ff8328dc0e499456082379188dd, type: 3}
+    m_VolumeRange: {x: 0.5, y: 0.75}
+    m_PitchRange: {x: 0.9, y: 1.1}
+  m_AudioPlayInterval: 5

@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 927e4dc9a4b49b345a560375b9406f48, type: 3}
+  m_Name: Input Data
+  m_EditorClassIdentifier: 
+  m_InputType: 0
+  m_Buttons:
+  - m_ButtonName: Run
+    m_Key: 304
+  - m_ButtonName: Attack
+    m_Key: 323
+  - m_ButtonName: Jump
+    m_Key: 32
+  - m_ButtonName: Crouch
+    m_Key: 99
+  - m_ButtonName: Reload
+    m_Key: 114
+  - m_ButtonName: Aim
+    m_Key: 324
+  - m_ButtonName: Interact
+    m_Key: 101
+  - m_ButtonName: Place Object
+    m_Key: 323
+  - m_ButtonName: Select Buildable
+    m_Key: 324
+  - m_ButtonName: Open Inventory
+    m_Key: 9
+  - m_ButtonName: Close Inventory
+    m_Key: 9
+  m_Axes:
+  - m_AxisName: Horizontal
+    m_Normalize: 1
+    m_AxisType: 1
+    m_UnityAxisName: Horizontal
+    m_PositiveKey: 100
+    m_NegativeKey: 97
+  - m_AxisName: Vertical
+    m_Normalize: 1
+    m_AxisType: 1
+    m_UnityAxisName: Vertical
+    m_PositiveKey: 119
+    m_NegativeKey: 115
+  - m_AxisName: Mouse X
+    m_Normalize: 0
+    m_AxisType: 0
+    m_UnityAxisName: Mouse X
+    m_PositiveKey: 0
+    m_NegativeKey: 0
+  - m_AxisName: Mouse Y
+    m_Normalize: 0
+    m_AxisType: 0
+    m_UnityAxisName: Mouse Y
+    m_PositiveKey: 0
+    m_NegativeKey: 0
+  - m_AxisName: Mouse ScrollWheel
+    m_Normalize: 0
+    m_AxisType: 0
+    m_UnityAxisName: Mouse ScrollWheel
+    m_PositiveKey: 0
+    m_NegativeKey: 0
+  - m_AxisName: Rotate Object
+    m_Normalize: 1
+    m_AxisType: 1
+    m_UnityAxisName: Mouse ScrollWheel
+    m_PositiveKey: 275
+    m_NegativeKey: 276
